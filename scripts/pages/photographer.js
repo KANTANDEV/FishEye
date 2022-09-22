@@ -48,6 +48,11 @@ const likes = []
 						return closeMediaModal()
 					}
 				}
+				if (contact_modal.style.display && contact_modal.style.display !== 'none') {
+					if (event.code === 'Escape') {
+						contact_modal.style.display = 'none'
+					}
+				}
 			})
 			//Des que l'utilisateur modifie la vcaleur de trie des medias on appelle la fonction orderMedias qui retrie les medie en fonction de la nouvelle valeur de trie
 			orderSelect.onchange = ({ target: { value } }) => orderMedias(photographer, value)
@@ -125,12 +130,14 @@ function displayMedias(photographer, medias) {
 	for (const media of medias) {
 		//on cree les elements qui vont contenir les medias
 		const article = document.createElement('article')
+		const link = document.createElement('a')
 		const mediaElement = media.video ? document.createElement('video') : document.createElement('img')
 		const divInfos = document.createElement('div')
 		const spanName = document.createElement('span')
 		const spanLike = document.createElement('span')
 		//on ajoute les attributs a nos elements
 		article.dataset.id = media.id
+		link.href = "#"
 		mediaElement.src = `./assets/images/${photographer.name}/${media.video ?? media.image}`
 		mediaElement.alt = media.title
 		mediaElement.controls = false
@@ -154,6 +161,13 @@ function displayMedias(photographer, medias) {
 			//on ajoute le media.id dans le tableau likes
 			likes.push(media.id)
 		}
+		link.onclick = (event) => {
+			event.preventDefault()
+			media_modal.children[media_modal.children.length - 1].appendChild(mediaElement.cloneNode())
+			media_modal.children[media_modal.children.length - 1].appendChild(spanName.cloneNode(true))
+			media_modal.style.display = 'inherit'
+			document.body.style.overflow = 'hidden'
+		}
 		//Quand on click sur la photo on la clone et on l'ajoute a la modal 
 		//on va donc selectionner le dernier enfant de la modal qui est la div vide et lui copier la photo cloner 
 		mediaElement.onclick = () => {
@@ -164,14 +178,22 @@ function displayMedias(photographer, medias) {
 			//on evite que la barre de defillement apparaisse
 			document.body.style.overflow = 'hidden'
 		}
+
+
 		//on ajoute l'element a son parent
+		link.appendChild(article)
 		article.appendChild(mediaElement)
 		article.appendChild(divInfos)
 		divInfos.appendChild(spanName)
 		divInfos.appendChild(spanLike)
-		mediasSection.appendChild(article)
+		mediasSection.appendChild(link)
 	}
 }
+
+
+
+
+
 
 function changeMedia(direction) {
 	//on clible l'element de contenu de la modal

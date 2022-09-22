@@ -141,6 +141,15 @@
 	gap: 75px 100px;
 }
 
+#photograph_medias a {
+	text-decoration: none;
+}
+
+#photograph_medias article {
+	width: 100%;
+	height: 100%;
+}
+
 #photograph_medias img,
 #photograph_medias video {
 	cursor: pointer;
