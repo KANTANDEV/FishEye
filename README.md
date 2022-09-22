@@ -14,18 +14,31 @@ Rappel des spécification fonctionnelle
 
 Page d'accueil :
 
-                ○ Liste de tous les photographes avec leur nom, leur slogan, leur localisation, leur prix/heure et une image miniature de leur choix.
-                ○ Lorsque l'utilisateur clique sur la vignette d'un photographe, il est amené à sa page.
+Liste de tous les photographes avec leur nom, leur slogan, leur localisation, leur prix/heure et une image miniature de leur choix.
+
+Lorsque l'utilisateur clique sur la vignette d'un photographe, il est amené à sa page.
 
 Page des photographes : 
 
-                ○ Affiche une galerie des travaux du photographe (  photos et des vidéos ).
-                ○ Dans le cas des vidéos, montrer une image miniature dans la galerie. Chaque média comprend un titre et un nombre de likes.
-                ○ Lorsque l'utilisateur clique sur l'icône "Like", le nombre de likes affiché est incrémenté.
-                ○ Le nombre de likes total d’un photographe doit correspondre à la somme des likes de chacun de ses médias
-                ○ Les médias peuvent être triés par popularité ou par titre. Lorsque l'utilisateur clique sur un média, celui-ci doit s’ouvrir dans une lightbox 
-                ○ Lorsque la lightbox est affichée, il y a une croix dans le coin pour fermer la fenêtre. Des boutons de navigation permettent de passer d'un élément média à l'autre dans la lightbox. Les touches fléchées du clavier permettent également de naviguer.naviguer entre les médias dans la lightbox. 
-                ○ Afficher un bouton pour contacter le photographe.Le formulaire de contact est une modale qui s'affiche par-dessus le reste. Il comprend des champs pour les noms, l'adresse électronique et le message. afficher le contenu des trois champs dans les logs de la console.
+Affiche une galerie des travaux du photographe (  photos et des vidéos ).
+
+Dans le cas des vidéos, montrer une image miniature dans la galerie.
+
+Chaque média comprend un titre et un nombre de likes.
+
+Lorsque l'utilisateur clique sur l'icône "Like", le nombre de likes affiché est incrémenté.
+
+Le nombre de likes total d’un photographe doit correspondre à la somme des likes de chacun de ses médias
+
+Les médias peuvent être triés par popularité ou par titre. Lorsque l'utilisateur clique sur un média, celui-ci doit s’ouvrir dans une lightbox 
+
+Lorsque la lightbox est affichée, il y a une croix dans le coin pour fermer la fenêtre. Des boutons de navigation permettent de passer d'un élément média à l'autre dans la lightbox. Les touches fléchées du clavier permettent également de naviguer entre les médias dans la lightbox. 
+
+Afficher un bouton pour contacter le photographe.
+
+Le formulaire de contact est une modale qui s'affiche par-dessus le reste.
+
+Il comprend des champs pour les noms, l'adresse électronique et le message. afficher le contenu des trois champs dans les logs de la console.
 
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -33,10 +46,14 @@ Page des photographes :
 Maquette
 
 
-![Up![Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191631776-463b38e4-9cd2-47a0-8b27-a2f9fde6ab75.png)
-loading Capt![Uploading Capture d’écran 2![Capture d’écran 2022-09-22 021607](https://user-images.githubusercontent.com/94462048/191631799-bb482e9b-ed62-4a1e-94b3-5045eb671618.png)
-022-09-22 021550.png…]()
-ure d’écran 2022-09-22 021507.png…]()
+[Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191632257-a12f6ecf-2583-47fc-9520-2d46d57c6489.png)
+[!![Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191632511-70533606-76b1-4bb2-a306-bccb68e3a88d.png)
+![Capture d’écran 2022-09-22 021550](https://user-images.githubusercontent.com/94462048/191632307-d45412d3-c391-46eb-b4de-c0a159eb417f.png)
+![Capture d’écran 2022-09-22 021607](https://user-images.githubusercontent.com/94462048/191632316-e751b178-c18f-4f6d-99d7-ec2b1e38a452.png)
+
+
+
+
 
 
 
