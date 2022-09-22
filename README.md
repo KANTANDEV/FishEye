@@ -46,10 +46,10 @@ Il comprend des champs pour les noms, l'adresse électronique et le message. aff
 Maquette
 
 
-![Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191632257-a12f6ecf-2583-47fc-9520-2d46d57c6489.png)
-![Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191632511-70533606-76b1-4bb2-a306-bccb68e3a88d.png)
-![Capture d’écran 2022-09-22 021550](https://user-images.githubusercontent.com/94462048/191632307-d45412d3-c391-46eb-b4de-c0a159eb417f.png)
-![Capture d’écran 2022-09-22 021607](https://user-images.githubusercontent.com/94462048/191632316-e751b178-c18f-4f6d-99d7-ec2b1e38a452.png)
+![Capture d’écran 2022-09-22 021507](https://user-images.githubusercontent.com/94462048/191632741-81dd11bb-4eec-455d-b305-18fc1e0be9e3.png)
+![Capture d’écran 2022-09-22 021533](https://user-images.githubusercontent.com/94462048/191632770-351935c0-58b6-4160-b05f-39503d29888f.png)
+![Capture d’écran 2022-09-22 021550](https://user-images.githubusercontent.com/94462048/191632819-1cdefab6-7fda-4fa7-8486-cd58d635cb86.png)
+![Capture d’écran 2022-09-22 021607](https://user-images.githubusercontent.com/94462048/191632856-4c82439b-1008-479e-8d67-0c65ed150063.png)
 
 
 
